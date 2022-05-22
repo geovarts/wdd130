@@ -1,6 +1,13 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 #background {
     height: 725px;
     background-color: rgba(225, 199, 150, 0.7);
+    margin: 0 auto
+    
 }
 
 #content {
@@ -12,20 +19,26 @@
 
 .logo {
     width: 80px;
+    padding-top: 10px;
 }
 
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-
+    padding: 35px;
 }
+
+nav a:hover {
+    background-color: black;
+    
+}
+
 #hero-box {
     max-width: 80%;
     
 }
-#hero-msg h1,
-#hero-msg h4 {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
@@ -39,35 +52,40 @@ main section {
 
 
 body {
+    
     background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
     background-color: rgba(20, 30, 13, .7);
 }
 
-nav a:hover {
-    background-color: black;
-}
 
-.join {
-    background-color: rgba(225, 199, 150, 0.7);
-}
 
-.book:hover,
-.join:hover {
-    background-color: rgba(20, 30, 13, .7);
-    ;
-}
 
 
 
 .msg {
-    background-color: rgba(20, 30, 13, .7);
+    background-color: #6f7364;
+  line-height: 1.5em;
+  padding: 35px;
 }
-
+.msg p{
+    font-size: 1em;
+    padding-bottom: 15px;
+}
 footer {
     background-color: rgba(20, 30, 13, .7);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 
@@ -76,15 +94,54 @@ nav a:hover {
     color: #d9c2a3;
 }
 
-.book,
-.join {
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+
+
+.book:hover, .join:hover {
+    background-color: rgba(20, 30, 13, .7);
+     
+}
+
 
 footer a {
     text-decoration: none;
 }
 
-div {
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand';
+    font-size: 2em;
+    margin-top: 10px;
     
 }
+
+.msg h2 {
+    font-family: 'Bradley Hand'
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img  {
+    padding-top: 15px;
+} 
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
