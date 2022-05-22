@@ -1,29 +1,90 @@
 #background {
     height: 725px;
-}
-            
-
-body {
-    background-color: #fcfbfb; 
-}
-header {
-    background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-    background-color: black;
+    background-color: rgba(225, 199, 150, 0.7);
 }
 
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
-}    
+#content {
+    max-width: 1600 px;
+    margin: 0 auto
+}
 
-.icon {
+
+
+.logo {
     width: 80px;
 }
-                
+
 nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
-}    
+
+}
+#hero-box {
+    max-width: 80%;
+    
+}
+#hero-msg h1,
+#hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, .7);
+}
+
+nav a:hover {
+    background-color: black;
+}
+
+.join {
+    background-color: rgba(225, 199, 150, 0.7);
+}
+
+.book:hover,
+.join:hover {
+    background-color: rgba(20, 30, 13, .7);
+    ;
+}
+
+
+
+.msg {
+    background-color: rgba(20, 30, 13, .7);
+}
+
+footer {
+    background-color: rgba(20, 30, 13, .7);
+}
+
+
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+
+.book,
+.join {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+div {
+    
+}
