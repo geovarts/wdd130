@@ -144,4 +144,6 @@ footer .social img  {
 main section img {
     box-sizing: border-box;
 }
-
+#hero-img{
+    width: 100%;
+}
