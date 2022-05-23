@@ -6,7 +6,8 @@ Fonts are separated by a | */
 #background {
     height: 725px;
     background-color: rgba(225, 199, 150, 0.7);
-    margin: 0 auto
+    margin: 0 auto;
+    
     
 }
 
@@ -146,4 +147,7 @@ main section img {
 }
 #hero-img{
     width: 100%;
+}
+.mountains{
+    margin: 200px 0; 
 }
