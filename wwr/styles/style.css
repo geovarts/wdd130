@@ -206,11 +206,45 @@ nav {
     margin-top: 100px;
 }
 
-
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 .card-img, .mountains {
     width: 100%;
 }
-             
+.rivers-card{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}   
+.camping-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}  
+.rapids-card{
+    grid-column: 8/10;
+    grid-row: 2/3;
+}  
+#background{
+    height: 725px;
+    background-color: rgba(225, 199, 150, 0.7);
+    margin: 0 auto;
+    grid-column: 1/11;
+    grid-row: 4/9;
+  
+}
+.mountains{
+    
+    grid-column: 2/7;
+    grid-row: 5/8;
+    
+  
+}
+.msg{
+    grid-column: 6/10;
+    grid-row: 6/7;
+   
+}
              
 .card-img {
     border: 10px solid #d9c2a3;
