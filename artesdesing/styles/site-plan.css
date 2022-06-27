@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rock+Salt&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,8 +11,8 @@ Fonts are separated by a | */
   --accent2-color: #a5c5a4;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Dancing Script";
-  --paragraph-font: css2, Helvetica, sans-serif;
+  --heading-font: "Rock Salt";
+  --paragraph-font: wght@500, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #2b729e;  /* headlines on a white background */ 
