@@ -490,3 +490,61 @@ nav {
     background-color: #666;
      color: white;
   }
+
+/* kichwa Culture CSS */
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.rivers_1, .msg_1 {
+    width: 90%;
+    display: block;
+    margin: 30px;
+}
+
+.rivers_1{
+    
+    grid-column: 1/4;
+    grid-row: 5/8; 
+}
+.msg_1{
+    grid-column: 4/7;
+    grid-row: 6/7;
+   
+}
+
+.rivers_2, .msg_2 {
+    width: 90%;
+    display: block;
+    margin: 30px;
+}
+
+.msg_2{
+    
+    grid-column: 1/4;
+    grid-row: 9/10;
+}
+.rivers_2{
+    grid-column: 4/7;
+    grid-row: 8/10;
+   
+}
+
+.rivers_3, .msg_3 {
+    width: 90%;
+    display: block;
+    margin: 30px;
+}
+
+.rivers_3{
+    
+    grid-column: 1/4;
+    grid-row: 10/15; 
+}
+.msg_3{
+    grid-column: 4/7;
+    grid-row: 11/16;
+    
+   
+}
