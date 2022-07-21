@@ -11,12 +11,9 @@ Fonts are separated by a | */
 }
 
 #content {
-    max-width: 1600 px;
+    max-width: 1600px;
     margin: 0 auto
 }
-
-
-
 .logo {
     width: 80px;
     padding-top: 10px;
